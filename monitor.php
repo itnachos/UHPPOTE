@@ -15,14 +15,14 @@ $a = new uhppote();
  * EX:  00:11:22:33:44:55  then the Serial Number = 22334455
  */
 
-$a->setSn("");
+$a->setSn("123273919");
 
 /*
  * The ip address and port of this machine tht will receive 
  * monitor messages
  */
 
-$localip = "192.168.1.2";
+$localip = "192.168.1.6";
 $localport = 60002;
 
 /*
@@ -43,7 +43,7 @@ echo "Send the folling command to network\n$cmd\n";
  *  $ip/$port  of controller board
  *  Normally UHPPOTE controller port is static 60000
  */
-$ip = "192.168.1.1";
+$ip = "192.168.1.199";
 $port = 60000;
 
 $sock = createSocket();
